@@ -8,11 +8,69 @@
     text-decoration: underline;
 }
 
-@media (max-width: 648px) {
+@media (max-width: 595px) {
     .wp-block-group p{
-        font-size: small;
+        font-size: 1rem;
     }
     .wp-block-group h3{
-        font-size: large;
+        font-size: 1.5rem;
     }
+    #about-content {
+        display: block;
+    }
+    #terms-container p{
+        font-size: 0.7rem;
+    }
+    .wp-block-navigation__responsive-dialog {
+        padding: 2.3rem;
+        background-color: #b5179e;
+        color: white;
+    }
+    .wp-block-navigation__responsive-container-close {
+        padding: 2rem;
+    }
+    button.wp-block-navigation__responsive-container-open {
+        display: block;
+    }
+    
+}
+
+@media (min-width: 598px) and (max-width: 1200px) {
+    #about-content {
+        display: none;
+    }
+    #about-container {
+        padding-top: 2rem;
+    }
+    .wp-block-navigation-item__content {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 600px) {
+    
+    .wp-block-group #logo-container {
+        width: 30%;
+    }
+    .wp-block-group #links-container {
+        width: 70%;
+    }
+    .wp-block-navigation {
+        display: flex;
+    }
+} 
+
+@media (min-width: 1200px) {
+    #about-content {
+        display: none;
+    }
+    #about-container {
+        padding-top: 2rem;
+    }
+    .wp-block-navigation__responsive-dialog {
+        padding: 0;
+        background-color: white;
+        color: black
+    }
+
 }
