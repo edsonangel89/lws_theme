@@ -1,0 +1,18 @@
+.wp-block-navigation-link:hover {
+    color: #3a0ca3;
+}
+.wp-block-group a {
+    text-decoration: none;
+}
+.wp-block-group a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 648px) {
+    .wp-block-group p{
+        font-size: small;
+    }
+    .wp-block-group h3{
+        font-size: large;
+    }
+}
